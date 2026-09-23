@@ -1,0 +1,24 @@
+{
+  "name": "job-search-agent",
+  "version": "0.2.0",
+  "description": "Find, verify, and score current job openings against a candidate-approved profile.",
+  "author": {
+    "name": "Job Search Agent Project"
+  },
+  "homepage": "https://github.com/wahidfazli-oss/job-search-agent",
+  "repository": "https://github.com/wahidfazli-oss/job-search-agent",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Job Search Agent",
+    "shortDescription": "Find and verify roles for each candidate.",
+    "longDescription": "Build a candidate-specific search profile, verify current employer postings and application deadlines, score matches, maintain a validated Excel tracker and shortlist, and support scheduled-run receipts even when no new jobs are found. Each candidate supplies their own resume and preferences.",
+    "developerName": "Job Search Agent Project",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Build my candidate profile from my resume.",
+      "Find and verify current jobs that match my profile.",
+      "Run my recurring search and update the Excel tracker."
+    ]
+  }
+}
