@@ -1,0 +1,12 @@
+.DS_Store
+*.pdf
+candidate-data/
+run-data/
+outputs/
+**/candidate-profile.md
+/job-tracker.xlsx
+/job-tracker-updated.xlsx
+*.csv
+*.log
+.env
+.env.*
