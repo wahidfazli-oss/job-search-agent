@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "job-search-agent",
+  "version": "0.2.0",
+  "description": "Find, verify, and score current job openings against a candidate-approved profile.",
+  "author": {
+    "name": "Job Search Agent Project"
+  },
+  "homepage": "https://github.com/wahidfazli-oss/job-search-agent",
+  "repository": "https://github.com/wahidfazli-oss/job-search-agent",
+  "license": "MIT",
+  "keywords": [
+    "jobs",
+    "career",
+    "resume",
+    "job-search",
+    "excel"
+  ]
+}
